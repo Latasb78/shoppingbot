@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+    <h1>Your Orders</h1>
+
+    <div class="container">
+
+        {% for product in cart %}
+
+        <div class="card">
+
+            <img src="{{ product.image }}">
+
+            <h2>{{ product.name }}</h2>
+
+            <p>₹{{ product.price }}</p>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</body>
+
+</html>

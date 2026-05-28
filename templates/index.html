@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Shopping Assistant</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <!-- LEFT SIDE PRODUCTS -->
+
+        <div class="products-section">
+
+            <h1>Products</h1>
+
+            <div class="products-container">
+
+                {% for product in products %}
+
+                <div class="card">
+
+                    <img src="{{ product.image }}">
+
+                    <h3>{{ product.name }}</h3>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE CHAT -->
+
+        <div class="chat-section">
+
+            <h1>Shopping Assistant</h1>
+
+            <div id="chat-box">
+
+                <div class="bot-message">
+
+    Welcome to Shopping Assistant 👋
+
+</div>
+
+            </div>
+
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="message"
+                    placeholder="Type message..."
+                >
+
+                <button onclick="sendMessage()">
+                    Send
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>

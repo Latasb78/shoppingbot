@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #eeeeee, #d6d6d6);
+}
+
+/* MAIN CONTAINER */
+
+.main-container{
+    display: flex;
+    height: 100vh;
+}
+
+/* LEFT SIDE PRODUCTS */
+
+.products-section{
+    width: 50%;
+    padding: 20px;
+    overflow-y: auto;
+    background: white;
+}
+
+.products-section h1{
+    text-align: center;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* PRODUCT CARD */
+
+.card{
+    width: 220px;
+    background: linear-gradient(to bottom, #ffffff, #eeeeee);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card h3{
+    color: #424242;
+    margin-top: 10px;
+}
+
+/* RIGHT SIDE CHAT */
+
+.chat-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(to bottom, #616161, #9e9e9e);
+}
+
+.chat-section h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* CHAT BOX */
+
+#chat-box{
+    flex: 1;
+    background: #f5f5f5;
+    border-radius: 20px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* BOT MESSAGE */
+
+.bot-message{
+    background: white;
+    color: black;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 20px 5px;
+    width: fit-content;
+    max-width: 350px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
+/* USER MESSAGE */
+
+.user-message{
+    background: #d6d6d6;
+    color: black;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 5px 20px;
+    margin-left: auto;
+    width: fit-content;
+    max-width: 350px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
+/* INPUT AREA */
+
+.input-area{
+    display: flex;
+    margin-top: 15px;
+}
+
+input{
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* BUTTON */
+
+button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    background: #616161;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #424242;
+}
+
+/* SMALL PRODUCT IMAGE */
+
+.small-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone ",
+    "price": 79999,
+    "image": "/static/images/iphone.jpg"
+  },
+
+  {
+    "id": 2,
+    "name": "Samsung Galaxy",
+    "price": 65999,
+    "image": "/static/images/samsung.jpg"
+  },
+
+  {
+    "id": 3,
+    "name": "Nike Shoes",
+    "price": 2999,
+    "image": "/static/images/shoess.jpg"
+  },
+
+  {
+    "id": 4,
+    "name": "Adidas Shoes",
+    "price": 3499,
+    "image": "/static/images/shoes.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "Laptop",
+    "price": 55999,
+    "image": "/static/images/laptop.jpg"
+  },
+
+  {
+    "id": 6,
+    "name": "Smart Watch",
+    "price": 1999,
+    "image": "/static/images/smartwatch.jpg"
+  },
+
+  {
+    "id": 7,
+    "name": "Dress",
+    "price": 2499,
+    "image": "/static/images/dress.jpg"
+  },
+
+  {
+    "id": 8,
+    "name": "Gaming Headphones",
+    "price": 4999,
+    "image": "/static/images/headphone.jpg"
+  },
+
+  {
+    "id": 9,
+    "name": "Backpack",
+    "price": 1499,
+    "image": "/static/images/bag.jpg"
+  },
+
+  {
+    "id": 10,
+    "name": "Bluetooth Speaker",
+    "price": 2999,
+    "image": "/static/images/bluetoothspeaker.jpg"
+  }
+]
